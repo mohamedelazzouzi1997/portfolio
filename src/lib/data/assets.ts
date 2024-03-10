@@ -9,6 +9,15 @@ const a = (light: string, dark?: string): Asset =>
 
 const Assets = {
 	AWS: a('aws.svg'),
+	PHP: a('php.svg'),
+	LARAVEL: a('laravel.svg'),
+	wordpress: a('wordpress.svg'),
+	GIT: a('Git.png'),
+	bitbucket: a('Bitbucket.png'),
+	MySQL: a('mysql.svg'),
+	PRISMA: a('prisma.svg'),
+	sequelizejs: a('sequelizejs.svg'),
+	jQuery: a('jquery.svg'),
 	Bootstrap: a('bootstrap.svg'),
 	C: a('c.svg'),
 	Cpp: a('cpp.svg'),
