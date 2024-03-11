@@ -16,9 +16,9 @@ export const items: Array<Experience> = [
 		type: 'Software Development',
 		location: 'On Site',
 		period: { from: new Date(2023, 6, 1), to: new Date() },
-		skills: getSkills('css', 'html', 'Laravel', "PHP", 'tailwindcss', 'Angular', 'PostgreSQL'),
+		skills: getSkills('css', 'html', 'Laravel', "PHP", 'tailwindcss', 'Angular', 'PostgreSQL', 'GIT', 'Docker', 'reactjs', 'NGINX'),
 		name: 'Full stack web developer',
-		color: 'skyblue',
+		color: '#F29502',
 		links: [],
 		logo: 'https://www.digitalpole.fr/wp-content/uploads/2023/10/logo1.webp',
 		shortDescription: 'I created web applications using Laravel and Angular within an Agile framework, while utilizing Git and Jira for efficient project management.'
@@ -48,7 +48,7 @@ export const items: Array<Experience> = [
 		period: { from: new Date(2022, 5, 29), to: new Date(2022, 11, 30) },
 		skills: getSkills('css', 'html', 'js', 'MySQL', 'Laravel', "PHP"),
 		name: 'Full stack web developer',
-		color: 'blue',
+		color: '#003160',
 		links: [],
 		logo: 'https://www.itlabspro.com/assets/images/logo-dark.svg',
 		shortDescription: 'designed and implemented a web application for receiving SMS messages, integrated PayPal and Stripe payment gateways to facilitate secure transactions, thereby enhancing the services provided to clients.'
