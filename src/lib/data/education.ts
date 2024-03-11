@@ -5,26 +5,26 @@ export const items: Array<Education> = [
 	{
 		degree: 'Bachelor degree of Computer Science',
 		description: '',
-		location: 'Tunisia',
-		logo: Assets.Unknown,
+		location: 'Morocco',
+		logo: 'https://www.uca.ma/public/files/images/site-1-2525ed2b2ad29dfbbe242515dda9cf43-2143650689.png',
 		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
+		organization: 'UCA',
+		period: { from: new Date(2020, 9, 1), to: new Date(2021, 11, 10) },
 		shortDescription: '',
-		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		slug: 'UCA',
+		subjects: ['Algorithm', 'Algebra', 'Java', 'English', 'PHP', 'JS', 'Networking', 'Pl sql', 'Oracle', 'UML']
 	},
 	{
-		degree: 'PhD of Computer Science',
+		degree: 'TS in computer network technology',
 		description: '',
-		location: 'USA',
-		logo: Assets.Unknown,
+		location: 'Morocco',
+		logo: 'https://www.ofppt.ma/themes/custom/ofppt/assets/images/logo.png',
 		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
+		organization: 'OFPPT',
+		period: { from: new Date(2016, 9, 1), to: new Date(2018, 11, 10) },
 		shortDescription: '',
-		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		slug: 'OFPPT',
+		subjects: ['C', 'English', 'Networking', 'Linux', 'CCNA', 'Windows Server']
 	}
 ];
 
