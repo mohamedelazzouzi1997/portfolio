@@ -1,4 +1,4 @@
-import{A as a}from"./UIcon.3214dc87.js";import{g as e}from"./skills.1e5580ad.js";import{C as n}from"./types.1ebf2f37.js";const t=`- Developed a web-based helpdesk application using Laravel v8 and JavaScript
+import{A as a}from"./UIcon.96128d88.js";import{g as e}from"./skills.8c5cf413.js";import{C as n}from"./types.1ebf2f37.js";const t=`- Developed a web-based helpdesk application using Laravel v8 and JavaScript
 - Successfully implemented real-time user notifications for ticket updates by integrating Pusher and utilizing websockets.
 - Designed and managed the application's database using MySQL to efficiently store and retrieve ticket-related information.
   <br/>
