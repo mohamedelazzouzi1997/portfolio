@@ -1,6 +1,6 @@
-- I created web applications using Laravel and Angular within an Agile framework, while utilizing Git and Jira for efficient project management.
+- I've crafted web applications using Laravel and Angular within an Agile framework. These applications are designed to generate service tickets, which are then sold to partner companies. The entire development process is facilitated by Git,Docker and Jira for effective project management.
 - During this period, I also constructed a personal web application for movies using Angular, as a practice project to further enhance my skills.
-- I created our company website using WordPress,
+- I recreated our company website using WordPress,
 
   <br/>
 
