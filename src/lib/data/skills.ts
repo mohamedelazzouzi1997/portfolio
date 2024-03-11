@@ -1,6 +1,5 @@
 import Assets from './assets';
 import type { Skill, SkillCategory } from '../types';
-import svelte from '../md/svelte.md?raw';
 import go from '../md/go.md?raw';
 import ts from '../md/ts.md?raw';
 import php from '../md/php.md?raw';
