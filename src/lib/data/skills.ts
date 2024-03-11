@@ -17,6 +17,16 @@ import react from '../md/react.md?raw';
 import tailwind from '../md/tailwind.md?raw';
 import bootstrap from '../md/bootstrap.md?raw';
 import jquery from '../md/jquery.md?raw';
+import mysql from '../md/mysql.md?raw';
+import mongodb from '../md/mongodb.md?raw';
+import postgres from '../md/postgres.md?raw';
+import prisma from '../md/prisma.md?raw';
+import squelize from '../md/squelize.md?raw';
+import docker from '../md/docker.md?raw';
+import nginx from '../md/nginx.md?raw';
+import git from '../md/git.md?raw';
+import bitbucket from '../md/bitbucket.md?raw';
+import wordpress from '../md/wordpress.md?raw';
 import { omit, type StringWithAutoComplete } from '@riadh-adrani/utils';
 
 const defineSkillCategory = <S extends string>(data: SkillCategory<S>): SkillCategory<S> => data;
@@ -185,7 +195,7 @@ export const items = [
 	defineSkill({
 		slug: 'MySQL',
 		color: '#E58F10',
-		description: svelte,
+		description: mysql,
 		logo: Assets.MySQL,
 		name: 'MySQL',
 		category: 'db'
@@ -193,7 +203,7 @@ export const items = [
 	defineSkill({
 		slug: 'MongoDb',
 		color: '#12a54f',
-		description: svelte,
+		description: mongodb,
 		logo: Assets.MongoDB,
 		name: 'MongoDb',
 		category: 'db'
@@ -201,7 +211,7 @@ export const items = [
 	defineSkill({
 		slug: 'PostgreSQL',
 		color: '#3C89CE',
-		description: svelte,
+		description: postgres,
 		logo: Assets.PostgreSQL,
 		name: 'PostgreSQL',
 		category: 'db'
@@ -210,7 +220,7 @@ export const items = [
 	defineSkill({
 		slug: 'Prisma',
 		color: '#3C89CE',
-		description: svelte,
+		description: prisma,
 		logo: Assets.PRISMA,
 		name: 'Prisma',
 		category: 'orm'
@@ -218,7 +228,7 @@ export const items = [
 	defineSkill({
 		slug: 'Sequelize',
 		color: '#3C89CE',
-		description: svelte,
+		description: squelize,
 		logo: Assets.sequelizejs,
 		name: 'Sequelize',
 		category: 'orm'
@@ -227,7 +237,7 @@ export const items = [
 	defineSkill({
 		slug: 'Docker',
 		color: '#3C89CE',
-		description: svelte,
+		description: docker,
 		logo: Assets.Docker,
 		name: 'Docker',
 		category: 'devops'
@@ -235,7 +245,7 @@ export const items = [
 	defineSkill({
 		slug: 'NGINX',
 		color: '#019639',
-		description: svelte,
+		description: nginx,
 		logo: Assets.Nginx,
 		name: 'NGINX',
 		category: 'devops'
@@ -243,7 +253,7 @@ export const items = [
 	defineSkill({
 		slug: 'GIT',
 		color: '#E94E31',
-		description: svelte,
+		description: git,
 		logo: Assets.GIT,
 		name: 'GIT',
 		category: 'devops'
@@ -252,7 +262,7 @@ export const items = [
 	defineSkill({
 		slug: 'Bitbucket',
 		color: '#2185FF',
-		description: svelte,
+		description: bitbucket,
 		logo: Assets.bitbucket,
 		name: 'Bitbucket',
 		category: 'devtools'
@@ -260,7 +270,7 @@ export const items = [
 	defineSkill({
 		slug: 'Wordpress',
 		color: '#2185FF',
-		description: svelte,
+		description: wordpress,
 		logo: Assets.wordpress,
 		name: 'Wordpress',
 		category: 'cms'
