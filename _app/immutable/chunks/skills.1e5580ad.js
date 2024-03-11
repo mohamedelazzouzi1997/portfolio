@@ -1,36 +1,4 @@
-import{A as e}from"./UIcon.2a8f2572.js";const o=`# Svelte
-
----
-
-[\`Svelte\`](https://svelte.dev/) is a free and open-source front end component framework or language created by Rich Harris and maintained by the Svelte core team members. Svelte is not a monolithic JavaScript library imported by applications: instead, Svelte compiles HTML templates to specialized code that manipulates the DOM directly, which may reduce the size of transferred files and give better client performance. Application code is also processed by the compiler, inserting calls to automatically recompute data and re-render UI elements when the data they depend on is modified. This also avoids the overhead associated with runtime intermediate representations, such as virtual DOM, unlike traditional frameworks (such as React and Vue) which carry out the bulk of their work at runtime, i.e. in the browser.
-
-The compiler itself is written in TypeScript. Its source code is licensed under MIT License and hosted on GitHub.
-
-<br/>
-
-Svelte is :
-
-- compiled : Svelte shifts as much work as possible out of the browser and into your build step. No more manual optimisations — just faster, more efficient apps.
-- compact : Write breathtakingly concise components using languages you already know — HTML, CSS and JavaScript. Oh, and your application bundles will be tiny as well.
-- complete : Built-in scoped styling, state management, motion primitives, form bindings and more — don't waste time trawling npm for the bare essentials. It's all here.
-
-<br/>
-
-## Example
-
-\`\`\`ts
-<script>
-    let count = 1;
-    $: doubled = count * 2;
-<\/script>
-
-<p>{count} * 2 = {doubled}</p>
-
-<button on:click={() => count = count + 1}>Count</button>
-\`\`\`
-
-> Svelte is a free and open-source front end component framework or language created by Rich Harris and maintained by the Svelte core team members.
-`,u=`# GO
+import{A as e}from"./UIcon.3214dc87.js";const p=`# GO
 
 [\`GO\`](https://go.dev/) is an open-source programming language designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson. Known for its simplicity, efficiency, and strong support for concurrency, Go has gained popularity in the development community. It emphasizes clean and readable code, making it an excellent choice for building scalable and maintainable applications.
 <br/>
@@ -65,7 +33,7 @@ func main() {
 \`\`\`
 
 > Go is an open-source programming language designed at Google, known for its simplicity, efficiency, and strong support for concurrency.
-`,m=`# TS
+`,u=`# TS
 
 [\`TS\`](https://www.typescriptlang.org/) is a superset of JavaScript that adds static typing to the language. Developed by Microsoft, TypeScript provides developers with optional static types, making it easier to catch errors early in the development process. TypeScript code is transpiled into JavaScript, ensuring compatibility with all JavaScript runtimes and environments.
 <br/>
@@ -112,7 +80,7 @@ counter.display();
 \`\`\`
 
 > TypeScript is a superset of JavaScript that adds static typing to the language, enhancing the developer experience with features like interfaces, enums, and advanced type-checking capabilities.
-`,g=`# PHP
+`,m=`# PHP
 
 [\`PHP\`](https://www.php.net/)is a server-side scripting language widely used for web development. Initially created by Rasmus Lerdorf in 1994, PHP stands for "Hypertext Preprocessor" and is embedded within HTML code to generate dynamic web pages. It is open-source and has a large, active community, contributing to its extensive ecosystem of libraries and frameworks.
 <br/>
@@ -143,7 +111,7 @@ $count = $count + 1;
 \`\`\`
 
 > PHP is a server-side scripting language widely used for web development, offering simplicity and flexibility for building dynamic web pages and applications.
-`,f=`# JS
+`,g=`# JS
 
 [\`JS\`](https://www.javascript.com/) is a versatile and widely-used programming language that powers dynamic content on the web. Developed by Brendan Eich in 1995, JavaScript is an essential part of web development, enabling interactive and responsive user experiences. It is a high-level, interpreted language that can be executed in web browsers, making it a client-side scripting language.
 <br/>
@@ -172,7 +140,7 @@ count = count + 1;
 \`\`\`
 
 > JavaScript is a versatile programming language that powers dynamic content on the web, allowing for interactive and responsive user experiences.
-`,h=`# CSS (Cascading Style Sheets)
+`,f=`# CSS (Cascading Style Sheets)
 
 [\`CSS\`](https://www.w3.org/Style/CSS/Overview.en.html) is a styling language used to describe the presentation of a document written in HTML. Developed as a separate technology to HTML, CSS allows developers to control the layout, appearance, and style of web pages, ensuring a consistent and visually appealing user experience. CSS is essential for creating responsive and well-designed websites.
 <br/>
@@ -273,7 +241,7 @@ HTML is :
 \`\`\`
 
 > HTML is the standard markup language for creating the structure and content of web pages, forming the foundation of web development.
-`,v=`# Sass (Syntactically Awesome Stylesheets)
+`,h=`# Sass (Syntactically Awesome Stylesheets)
 
 [\`Sass\`](https://sass-lang.com/) is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS). SassScript is the scripting language itself. It extends CSS by providing mechanisms such as variables, nested rules, and mixins, making stylesheets more maintainable and easier to write.
 <br/>
@@ -374,7 +342,7 @@ class WelcomeController extends Controller
 \`\`\`
 
 > Laravel is a powerful PHP web application framework that prioritizes clean and expressive code, making it a popular choice for modern web development.
-`,w=`# Express.js
+`,v=`# Express.js
 
 [\`Express.js\`](https://expressjs.com) is a minimal and flexible Node.js web application framework that provides a robust set of features for building web and mobile applications. It simplifies the process of building web servers and APIs, allowing developers to focus on creating scalable and efficient applications. Express.js is widely used in the Node.js ecosystem and is known for its simplicity, flexibility, and performance.
 <br/>
@@ -410,7 +378,7 @@ app.listen(port, () => {
 \`\`\`
 
 > Express.js is a minimalist and flexible Node.js web application framework, widely used for building scalable and efficient web servers and APIs.
-`,S=`# Angular
+`,w=`# Angular
 
 [\`Angular\`](https://angular.io/docs) is a TypeScript-based open-source front-end web application framework maintained by Google and a community of developers. It is part of the MEAN (MongoDB, Express.js, Angular, Node.js) stack and is widely used for building single-page applications (SPAs) and dynamic web applications. Angular provides a comprehensive set of tools and features to simplify the development process and enhance the scalability and maintainability of projects.
 <br/>
@@ -452,7 +420,7 @@ export class AppComponent {
 \`\`\`
 
 > Angular is a TypeScript-based front-end web application framework that promotes a component-based architecture for building scalable and maintainable single-page applications.
-`,k=`# Vue.js
+`,S=`# Vue.js
 
 [\`Vue.js\`](https://vuejs.org/) is a progressive JavaScript framework used for building user interfaces. Developed by Evan You, Vue.js is designed from the ground up to be incrementally adoptable, making it easy to integrate into existing projects. It focuses on the view layer of an application and is often referred to as a "progressive framework" because of its versatility and adaptability.
 <br/>
@@ -499,7 +467,7 @@ h1 {
 \`\`\`
 
 > Vue.js is a progressive JavaScript framework for building user interfaces, known for its simplicity, adaptability, and reactive data-binding system.
-`,x=`# React Native
+`,k=`# React Native
 
 [\`React Native\`](https://reactnative.dev/) is an open-source framework for building mobile applications using JavaScript and React. Developed by Facebook, React Native allows developers to create native-like experiences for iOS and Android platforms with a single codebase. It leverages the React library, enabling developers to use a familiar declarative style to build user interfaces for mobile apps.
 <br/>
@@ -537,7 +505,7 @@ export default App;
 \`\`\`
 
 > React Native is an open-source framework for building cross-platform mobile applications using JavaScript and React, providing a native-like experience for both iOS and Android.
-`,C=`# React.js
+`,x=`# React.js
 
 [\`React\`](https://react.dev/) is an open-source JavaScript library for building user interfaces, developed and maintained by Facebook. It is widely used for creating interactive and dynamic web applications with a focus on component-based architecture. React allows developers to build reusable UI components that efficiently update and render in response to data changes.
 <br/>
@@ -575,7 +543,7 @@ export default App;
 \`\`\`
 
 >     React is an open-source JavaScript library for building interactive user interfaces, known for its component-based architecture and efficient rendering through the virtual DOM.
-`,T=`# Tailwind CSS
+`,C=`# Tailwind CSS
 
 [\`Tailwind CSS\`](https://tailwindcss.com) is a utility-first CSS framework that provides a set of low-level utility classes to build modern and responsive user interfaces. Developed by Adam Wathan, Jonathan Reinink, David Hemphill, and Steve Schoger, Tailwind CSS enables developers to rapidly create well-designed and consistent UIs without the need for writing custom CSS styles.
 <br/>
@@ -607,7 +575,7 @@ Tailwind CSS is :
 \`\`\`
 
 > Tailwind CSS is a utility-first CSS framework that provides a set of low-level utility classes for rapid and consistent UI development.
-`,j=`# Bootstrap
+`,P=`# Bootstrap
 
 [\`Bootstrap\`](https://getbootstrap.com/) is a popular open-source front-end framework developed by Twitter. It provides a set of pre-designed components, styles, and utilities to streamline the process of building responsive and visually appealing websites and web applications. Bootstrap is built on HTML, CSS, and JavaScript, making it easy to use for both beginners and experienced developers.
 <br/>
@@ -673,7 +641,7 @@ Bootstrap is :
 \`\`\`
 
 >     Bootstrap is a popular front-end framework that provides a set of pre-designed components and styles for building responsive and visually appealing web applications.
-`,P=`# jQuery
+`,L=`# jQuery
 
 [\`jQuery\`](https://jquery.com/) is a fast, lightweight, and feature-rich JavaScript library designed to simplify front-end web development. Created by John Resig, jQuery abstracts many common tasks, such as DOM manipulation, event handling, and AJAX requests, into a simplified API. It enables developers to write less code and achieve more with cross-browser compatibility.
 <br/>
@@ -712,4 +680,413 @@ jQuery is :
 \`\`\`
 
 > jQuery is a fast and lightweight JavaScript library that simplifies DOM manipulation, event handling, and AJAX requests, providing a concise and efficient way to develop interactive web applications.
-`;function M(t,...a){const r=Object.assign({},t);return Object.keys(r).forEach(i=>{a.includes(i)&&delete r[i]}),r}const s=t=>t,E=[s({name:"Programming Languages",slug:"pro-lang"}),s({name:"Frameworks",slug:"framework"}),s({name:"Libraries",slug:"library"}),s({name:"Langauges",slug:"lang"}),s({name:"Databases",slug:"db"}),s({name:"ORMs",slug:"orm"}),s({name:"DevOps",slug:"devops"}),s({name:"Dev Tools",slug:"devtools"}),s({name:"Markup & Style",slug:"markup-style"}),s({name:"CMS",slug:"cms"})],n=t=>{const a=M(t,"category");return t.category&&(a.category=E.find(r=>r.slug===t.category)),a},d=[n({slug:"GO",color:"#00A7D0",description:u,logo:e.Go,name:"GO",category:"pro-lang"}),n({slug:"TS",color:"blue",description:m,logo:e.TypeScript,name:"Typescript",category:"pro-lang"}),n({slug:"PHP",color:"#777BB3",description:g,logo:e.PHP,name:"PHP",category:"pro-lang"}),n({slug:"JS",color:"yellow",description:f,logo:e.JavaScript,name:"Javascript",category:"pro-lang"}),n({slug:"Laravel",color:"#F9322C",description:y,logo:e.LARAVEL,name:"Laravel",category:"framework"}),n({slug:"ExpressJs",color:"#202124",description:w,logo:e.ExpressJs,name:"ExpressJs",category:"framework"}),n({slug:"Angular",color:"#BD002E",description:S,logo:e.Angular,name:"Angular",category:"framework"}),n({slug:"Vuejs",color:"#3FB27F",description:k,logo:e.VueJs,name:"Vuejs",category:"framework"}),n({slug:"React-native",color:"cyan",description:x,logo:e.ReactJs,name:"React Native",category:"framework"}),n({slug:"css",color:"blue",description:h,logo:e.CSS,name:"CSS",category:"markup-style"}),n({slug:"html",color:"orange",description:b,logo:e.HTML,name:"HTML",category:"markup-style"}),n({slug:"sass",color:"pink",description:v,logo:e.Sass,name:"Sass",category:"markup-style"}),n({slug:"reactjs",color:"cyan",description:C,logo:e.ReactJs,name:"React Js",category:"library"}),n({slug:"tailwindcss",color:"#38BDF8",description:T,logo:e.Tailwind,name:"Tailwind Css",category:"library"}),n({slug:"Bootstrap",color:"#6D0FF3",description:j,logo:e.Bootstrap,name:"Bootstrap",category:"library"}),n({slug:"jQuery",color:"#0865A7",description:P,logo:e.jQuery,name:"jQuery",category:"library"}),n({slug:"MySQL",color:"#E58F10",description:o,logo:e.MySQL,name:"MySQL",category:"db"}),n({slug:"MongoDb",color:"#12a54f",description:o,logo:e.MongoDB,name:"MongoDb",category:"db"}),n({slug:"PostgreSQL",color:"#3C89CE",description:o,logo:e.PostgreSQL,name:"PostgreSQL",category:"db"}),n({slug:"Prisma",color:"#3C89CE",description:o,logo:e.PRISMA,name:"Prisma",category:"orm"}),n({slug:"Sequelize",color:"#3C89CE",description:o,logo:e.sequelizejs,name:"Sequelize",category:"orm"}),n({slug:"Docker",color:"#3C89CE",description:o,logo:e.Docker,name:"Docker",category:"devops"}),n({slug:"NGINX",color:"#019639",description:o,logo:e.Nginx,name:"NGINX",category:"devops"}),n({slug:"GIT",color:"#E94E31",description:o,logo:e.GIT,name:"GIT",category:"devops"}),n({slug:"Bitbucket",color:"#2185FF",description:o,logo:e.bitbucket,name:"Bitbucket",category:"devtools"}),n({slug:"Wordpress",color:"#2185FF",description:o,logo:e.wordpress,name:"Wordpress",category:"cms"})],L="Skills",A=(...t)=>d.filter(a=>t.includes(a.slug)),H=t=>{const a=[],r=[];return d.forEach(i=>{if(t.trim()&&!i.name.toLowerCase().includes(t.trim().toLowerCase()))return;if(!i.category){console.log(i.category),r.push(i);return}let l=a.find(p=>{var c;return p.category.slug===((c=i.category)==null?void 0:c.slug)});l||(l={items:[],category:i.category},a.push(l)),l.items.push(i)}),r.length!==0&&a.push({category:{name:"Others",slug:"others"},items:r}),a};export{H as a,A as g,d as i,L as t};
+`,T=`# MySQL
+
+[\`MySQL\`](https://www.mysql.com/) is an open-source relational database management system (RDBMS) that is widely used for building and managing databases. Developed by Oracle Corporation, MySQL is known for its reliability, performance, and ease of use. It supports SQL (Structured Query Language) for defining and manipulating data, making it a popular choice for various applications, from small websites to large-scale enterprise systems.
+<br/>
+
+MySQL offers features such as transactions, indexing, and replication, making it suitable for a wide range of use cases. It supports multiple storage engines, allowing developers to choose the one that best fits their needs, whether it's for performance optimization, ACID compliance, or other specific requirements.
+
+<br/>
+
+MySQL is :
+
+- open-source: Being open-source allows developers to access and modify the source code, promoting transparency and community collaboration.
+- scalable: Scales well for both small and large databases, with support for replication, clustering, and partitioning.
+- versatile: Supports multiple storage engines and is compatible with various programming languages, making it suitable for diverse development environments.
+
+<br/>
+
+## Example
+
+\`\`\`ts
+CREATE TABLE users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(50) NOT NULL,
+  email VARCHAR(100) NOT NULL
+);
+
+INSERT INTO users (username, email) VALUES
+  ('john_doe', 'john@example.com'),
+  ('jane_smith', 'jane@example.com');
+
+SELECT * FROM users;
+
+\`\`\`
+
+> MySQL is an open-source relational database management system known for its reliability and versatility, widely used for building and managing databases in various applications.
+`,I=`# MongoDB
+
+[\`MongoDB\`](https://www.mongodb.com/) is a popular NoSQL database management system that provides a flexible, scalable, and document-oriented approach to storing and retrieving data. Developed by MongoDB Inc., MongoDB is designed to handle large amounts of unstructured or semi-structured data, making it suitable for a wide range of applications, including web development, mobile apps, and analytics.
+<br/>
+
+MongoDB stores data in a flexible, JSON-like format called BSON (Binary JSON), which allows developers to represent complex data structures and relationships. It supports dynamic schema, making it easy to adapt to evolving application requirements. MongoDB is known for its horizontal scalability, automatic sharding, and comprehensive query capabilities.
+
+<br/>
+
+MongoDB is :
+
+- NoSQL: Adopts a non-relational approach, providing flexibility in data modeling and storage.
+- document-oriented: Stores data in BSON documents, allowing for rich and nested data structures.
+- scalable: Scales horizontally to handle large volumes of data by distributing it across multiple servers.
+
+<br/>
+
+## Example
+
+\`\`\`ts
+const { MongoClient } = require('mongodb');
+
+const uri =
+	'mongodb+srv://<username>:<password>@cluster0.mongodb.net/test?retryWrites=true&w=majority';
+
+const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+
+async function run() {
+	try {
+		await client.connect();
+
+		const database = client.db('mydatabase');
+		const collection = database.collection('mycollection');
+
+		await collection.insertOne({ name: 'John Doe', age: 30, email: 'john@example.com' });
+
+		const result = await collection.find({ name: 'John Doe' }).toArray();
+		console.log(result);
+	} finally {
+		await client.close();
+	}
+}
+
+run();
+\`\`\`
+
+> MongoDB is a NoSQL document-oriented database management system known for its flexibility and scalability, widely used for handling unstructured or semi-structured data in various applications.
+`,M=`# PostgreSQL
+
+[\`PostgreSQL\`](https://www.postgresql.org/) is a powerful open-source relational database management system (RDBMS) known for its advanced features, extensibility, and standards compliance. PostgreSQL, often referred to as "Postgres," supports a wide range of data types, indexing options, and complex queries, making it suitable for various applications, from small projects to large enterprise systems.
+<br/>
+
+PostgreSQL follows the SQL standard and provides additional features, including support for JSON, XML, and spatial data. It has a robust security model, supports ACID (Atomicity, Consistency, Isolation, Durability) properties, and offers features like triggers, stored procedures, and views. PostgreSQL is widely used in mission-critical applications due to its reliability, extensibility, and strong community support.
+
+<br/>
+
+PostgreSQL is :
+
+- open-source: Being open-source promotes transparency, community collaboration, and ease of access for developers.
+- standards-compliant: Adheres to SQL standards and provides additional features, ensuring compatibility and flexibility.
+- extensible: Supports the development of custom functions, operators, and data types, allowing for extensibility and customization.
+
+<br/>
+
+## Example
+
+\`\`\`ts
+CREATE TABLE users (
+  id SERIAL PRIMARY KEY,
+  username VARCHAR(50) NOT NULL,
+  email VARCHAR(100) NOT NULL
+);
+
+INSERT INTO users (username, email) VALUES
+  ('john_doe', 'john@example.com'),
+  ('jane_smith', 'jane@example.com');
+
+SELECT * FROM users;
+
+\`\`\`
+
+> PostgreSQL is a powerful open-source relational database management system known for its advanced features, standards compliance, and extensibility, widely used for various applications.
+`,j=`# Prisma
+
+[\`Prisma \`](https://www.prisma.io/) is a modern, open-source database toolkit and Object-Relational Mapping (ORM) tool for TypeScript and Node.js applications. Prisma simplifies database access by providing a type-safe and auto-generated query builder. It supports multiple databases, including MySQL, PostgreSQL, SQLite, and SQL Server.
+<br/>
+
+Prisma's key features include a powerful query builder, automatic schema migrations, and type-safe database access using TypeScript. It provides a declarative and intuitive API for database operations, making it easy for developers to interact with databases without writing raw SQL queries. Prisma Client, the generated database client, ensures type safety and autocompletion for queries.
+
+<br/>
+
+Prisma is :
+
+- type-safe: Utilizes TypeScript to provide type safety and autocompletion for database queries.
+- declarative: Offers a declarative API for defining database models and relationships.
+- migrate: Supports automatic schema migrations, making it easy to evolve the database schema with code changes.
+
+<br/>
+
+## Example
+
+\`\`\`ts
+model User {
+  id    Int     @id @default(autoincrement())
+  name  String
+  email String  @unique
+  posts Post[]
+}
+
+model Post {
+  id    Int    @id @default(autoincrement())
+  title String
+  body  String
+  userId Int
+  user  User   @relation(fields: [userId], references: [id])
+}
+
+import { PrismaClient } from '@prisma/client';
+
+const prisma = new PrismaClient();
+
+const newUser = await prisma.user.create({
+  data: {
+    name: 'John Doe',
+    email: 'john@example.com',
+    posts: {
+      create: { title: 'My first post', body: 'Hello, Prisma!' },
+    },
+  },
+});
+
+const userWithPosts = await prisma.user.findUnique({
+  where: { id: newUser.id },
+  include: { posts: true },
+});
+
+console.log(userWithPosts);
+
+\`\`\`
+
+> Prisma is a modern database toolkit and ORM for TypeScript and Node.js, providing a type-safe query builder, automatic migrations, and a declarative API for database operations.
+`,E=`# Sequelize
+
+[\`Sequelize\`](https://sequelize.org/) is a powerful Object-Relational Mapping (ORM) library for Node.js, supporting various SQL databases such as PostgreSQL, MySQL, SQLite, and MSSQL. Sequelize simplifies database interactions by providing a straightforward way to define models, perform queries, and manage database relationships using JavaScript or TypeScript.
+<br/>
+
+Sequelize supports both promise-based and async/await patterns, making it easy to work with asynchronous operations. It includes features like migrations, associations, and hooks, allowing developers to manage database schemas, model relationships, and execute custom logic during database operations.
+
+<br/>
+
+Sequelize is :
+
+- flexible: Works with various SQL databases, allowing developers to switch databases without significant code changes.
+- feature-rich: Provides comprehensive features such as migrations, associations, and hooks to manage database operations.
+- well-documented: Has extensive documentation and a strong community, making it easy for developers to get started and find support.
+
+<br/>
+
+## Example
+
+\`\`\`ts
+const { Sequelize, DataTypes } = require('sequelize');
+const sequelize = new Sequelize('sqlite::memory:');
+
+const User = sequelize.define('User', {
+	name: {
+		type: DataTypes.STRING,
+		allowNull: false
+	},
+	email: {
+		type: DataTypes.STRING,
+		allowNull: false,
+		unique: true
+	}
+});
+
+sequelize
+	.sync()
+	.then(() => {
+		return User.create({
+			name: 'John Doe',
+			email: 'john@example.com'
+		});
+	})
+	.then((user) => {
+		return User.findOne({ where: { id: user.id } });
+	})
+	.then((user) => {
+		console.log(user.toJSON());
+	})
+	.catch((error) => {
+		console.error('Error:', error.message);
+	});
+\`\`\`
+
+> Sequelize is a powerful ORM for Node.js that simplifies database interactions, supporting various SQL databases and providing features like migrations, associations, and hooks.
+`,A=`# Docker
+
+[\`Docker\`](https://www.docker.com/) is an open-source platform that enables developers to automate the deployment of applications within lightweight, portable containers. Containers are standalone, executable packages that include everything needed to run a piece of software, including the code, runtime, libraries, and system tools. Docker makes it easy to develop, deploy, and scale applications consistently across different environments.
+<br/>
+
+Docker uses a client-server architecture, where the Docker client communicates with the Docker daemon to build, run, and manage containers. It leverages containerization technology to isolate applications and their dependencies, ensuring consistency and reproducibility across various environments. Docker images, the blueprints for containers, are versioned, shareable, and can be distributed through container registries like Docker Hub.
+
+<br/>
+
+Docker is :
+
+- containerized: Utilizes containerization to package applications and their dependencies in isolated, lightweight containers.
+- portable: Ensures consistency across different environments, from development to testing and production.
+- scalable: Enables easy scaling of applications by deploying and orchestrating containers using tools like Docker Compose and Kubernetes.
+
+<br/>
+
+## Example
+
+\`\`\`ts
+FROM node:14
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+
+EXPOSE 3000
+
+CMD ["npm", "start"]
+
+\`\`\`
+
+>     Docker is an open-source platform for automating the deployment of applications in lightweight, portable containers, ensuring consistency and scalability across different environments.
+`,R=`# NGINX
+
+[\`NGINX\`](https://www.nginx.com/) is a high-performance open-source web server and reverse proxy server. It is known for its speed, efficiency, and versatility, making it a popular choice for serving static content, handling SSL/TLS termination, load balancing, and acting as a reverse proxy for dynamic web applications. NGINX is widely used in both small-scale projects and large-scale deployments.
+<br/>
+
+NGINX is designed to efficiently handle concurrent connections and serve static content with minimal resource usage. It also excels in proxying requests to backend applications, distributing traffic among multiple servers, and providing various features to optimize web server performance. NGINX can be extended using modules and is often used as a frontend server in combination with backend application servers.
+
+<br/>
+
+NGINX is :
+
+- high-performance: Optimized for handling a large number of concurrent connections and serving static content efficiently.
+- versatile: Used as a web server, reverse proxy, load balancer, and more, making it suitable for various use cases.
+- scalable: Scales well in both small and large-scale deployments, providing performance and reliability.
+
+<br/>
+
+## Example
+
+\`\`\`ts
+server {
+    listen 80;
+    server_name example.com;
+
+    root /var/www/html;
+
+    index index.html;
+
+    error_page 404 /404.html;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    location = /favicon.ico {
+        access_log off;
+        log_not_found off;
+    }
+
+    location = /robots.txt {
+        access_log off;
+        log_not_found off;
+    }
+
+    location /404.html {
+        internal;
+    }
+
+}
+
+\`\`\`
+
+> NGINX is a high-performance web server and reverse proxy known for its speed, efficiency, and versatility, widely used for serving static content, load balancing, and more.
+`,D=`# Git
+
+[\`Git\`](https://git-scm.com/) is a distributed version control system that helps developers track changes, collaborate on projects, and manage source code history. Created by Linus Torvalds, Git is designed to be fast, efficient, and flexible. It is widely used in software development to maintain codebases, track changes, and facilitate collaboration among team members.
+<br/>
+
+Git operates on a branching model, allowing developers to create branches for new features or bug fixes, and then merge them back into the main branch. It provides a decentralized approach, meaning every developer has a complete copy of the repository, enabling work to continue offline. Git also includes powerful tools for resolving conflicts, inspecting history, and collaborating with others through platforms like GitHub, GitLab, or Bitbucket.
+
+<br/>
+
+Git is :
+
+- distributed: Allows each developer to have a complete copy of the repository, enabling offline work and decentralized collaboration.
+- flexible: Supports various branching strategies, allowing developers to experiment with features in separate branches before merging into the main branch.
+- fast: Operates efficiently even on large codebases, making it suitable for projects of all sizes.
+
+<br/>
+
+## Example
+
+\`\`\`ts
+# Basic Git commands for a new project
+
+# Initialize a new Git repository
+git init
+
+# Add files to the staging area
+git add .
+
+# Commit changes to the local repository
+git commit -m "Initial commit"
+
+# Create a new branch for a new feature
+git branch feature-branch
+git checkout feature-branch
+
+# Make changes and commit to the feature branch
+git add .
+git commit -m "Add new feature"
+
+# Switch back to the main branch
+git checkout main
+
+# Merge the feature branch into the main branch
+git merge feature-branch
+
+# Push changes to a remote repository (e.g., GitHub)
+git remote add origin <repository-url>
+git push -u origin main
+
+\`\`\`
+
+> Git is a distributed version control system widely used in software development to track changes, collaborate on projects, and manage source code history efficiently.
+`,O=`# Bitbucket
+
+[\`Bitbucket\`](https://bitbucket.org/) is a web-based platform for version control, source code management, and collaboration. It provides Git and Mercurial repositories, allowing developers to host and manage their codebase, track changes, and collaborate with team members. Bitbucket is often used in conjunction with Git or Mercurial clients to streamline the development workflow.
+<br/>
+
+Bitbucket offers features such as pull requests, branching, issue tracking, and integration with various CI/CD (Continuous Integration/Continuous Deployment) tools. It provides a user-friendly interface for managing repositories, code reviews, and team collaboration. Bitbucket is commonly used by development teams for both small and large-scale projects.
+
+<br/>
+
+Bitbucket is :
+
+- version control platform: Hosts Git and Mercurial repositories, providing version control for source code.
+- collaboration tool: Supports features like pull requests, issue tracking, and team collaboration to streamline the development process.
+- integrations: Offers integrations with various CI/CD tools and third-party services for enhanced development workflows.
+
+<br/>
+
+> Bitbucket is a web-based platform for version control and collaboration, supporting Git and Mercurial repositories for managing source code, tracking changes, and facilitating team collaboration.
+`,N=`# WordPressWordPress
+
+[\`WordPress\`](https://wordpress.com/) is a popular open-source content management system (CMS) that enables users to create and manage websites easily. Originally developed as a blogging platform, WordPress has evolved into a versatile CMS that powers a significant portion of the web. It is known for its user-friendly interface, extensive plugin ecosystem, and customizable themes.
+<br/>
+
+WordPress is built on PHP and uses a MySQL database to store content and settings. It allows users to create, edit, and publish content through a web-based interface. WordPress supports the use of themes to control the visual appearance of a site and plugins to add functionality or extend features. It is widely used for blogs, business websites, e-commerce sites, and more.
+
+<br/>
+
+WordPress is :
+
+- user-friendly: Offers an intuitive interface for content creation, making it accessible for users with various technical backgrounds.
+- customizable: Supports a vast ecosystem of themes and plugins, allowing users to customize the appearance and functionality of their websites.
+- extensible: Provides a robust platform for developers to build custom themes, plugins, and extensions.
+
+<br/>
+
+> WordPress is a versatile and user-friendly content management system, widely used for creating and managing websites, blogs, and online stores.
+`;function B(t,...a){const s=Object.assign({},t);return Object.keys(s).forEach(i=>{a.includes(i)&&delete s[i]}),s}const o=t=>t,H=[o({name:"Programming Languages",slug:"pro-lang"}),o({name:"Frameworks",slug:"framework"}),o({name:"Libraries",slug:"library"}),o({name:"Langauges",slug:"lang"}),o({name:"Databases",slug:"db"}),o({name:"ORMs",slug:"orm"}),o({name:"DevOps",slug:"devops"}),o({name:"Dev Tools",slug:"devtools"}),o({name:"Markup & Style",slug:"markup-style"}),o({name:"CMS",slug:"cms"})],n=t=>{const a=B(t,"category");return t.category&&(a.category=H.find(s=>s.slug===t.category)),a},c=[n({slug:"GO",color:"#00A7D0",description:p,logo:e.Go,name:"GO",category:"pro-lang"}),n({slug:"TS",color:"blue",description:u,logo:e.TypeScript,name:"Typescript",category:"pro-lang"}),n({slug:"PHP",color:"#777BB3",description:m,logo:e.PHP,name:"PHP",category:"pro-lang"}),n({slug:"JS",color:"yellow",description:g,logo:e.JavaScript,name:"Javascript",category:"pro-lang"}),n({slug:"Laravel",color:"#F9322C",description:y,logo:e.LARAVEL,name:"Laravel",category:"framework"}),n({slug:"ExpressJs",color:"#202124",description:v,logo:e.ExpressJs,name:"ExpressJs",category:"framework"}),n({slug:"Angular",color:"#BD002E",description:w,logo:e.Angular,name:"Angular",category:"framework"}),n({slug:"Vuejs",color:"#3FB27F",description:S,logo:e.VueJs,name:"Vuejs",category:"framework"}),n({slug:"React-native",color:"cyan",description:k,logo:e.ReactJs,name:"React Native",category:"framework"}),n({slug:"css",color:"blue",description:f,logo:e.CSS,name:"CSS",category:"markup-style"}),n({slug:"html",color:"orange",description:b,logo:e.HTML,name:"HTML",category:"markup-style"}),n({slug:"sass",color:"pink",description:h,logo:e.Sass,name:"Sass",category:"markup-style"}),n({slug:"reactjs",color:"cyan",description:x,logo:e.ReactJs,name:"React Js",category:"library"}),n({slug:"tailwindcss",color:"#38BDF8",description:C,logo:e.Tailwind,name:"Tailwind Css",category:"library"}),n({slug:"Bootstrap",color:"#6D0FF3",description:P,logo:e.Bootstrap,name:"Bootstrap",category:"library"}),n({slug:"jQuery",color:"#0865A7",description:L,logo:e.jQuery,name:"jQuery",category:"library"}),n({slug:"MySQL",color:"#E58F10",description:T,logo:e.MySQL,name:"MySQL",category:"db"}),n({slug:"MongoDb",color:"#12a54f",description:I,logo:e.MongoDB,name:"MongoDb",category:"db"}),n({slug:"PostgreSQL",color:"#3C89CE",description:M,logo:e.PostgreSQL,name:"PostgreSQL",category:"db"}),n({slug:"Prisma",color:"#3C89CE",description:j,logo:e.PRISMA,name:"Prisma",category:"orm"}),n({slug:"Sequelize",color:"#3C89CE",description:E,logo:e.sequelizejs,name:"Sequelize",category:"orm"}),n({slug:"Docker",color:"#3C89CE",description:A,logo:e.Docker,name:"Docker",category:"devops"}),n({slug:"NGINX",color:"#019639",description:R,logo:e.Nginx,name:"NGINX",category:"devops"}),n({slug:"GIT",color:"#E94E31",description:D,logo:e.GIT,name:"GIT",category:"devops"}),n({slug:"Bitbucket",color:"#2185FF",description:O,logo:e.bitbucket,name:"Bitbucket",category:"devtools"}),n({slug:"Wordpress",color:"#2185FF",description:N,logo:e.wordpress,name:"Wordpress",category:"cms"})],z="Skills",J=(...t)=>c.filter(a=>t.includes(a.slug)),Q=t=>{const a=[],s=[];return c.forEach(i=>{if(t.trim()&&!i.name.toLowerCase().includes(t.trim().toLowerCase()))return;if(!i.category){console.log(i.category),s.push(i);return}let r=a.find(d=>{var l;return d.category.slug===((l=i.category)==null?void 0:l.slug)});r||(r={items:[],category:i.category},a.push(r)),r.items.push(i)}),s.length!==0&&a.push({category:{name:"Others",slug:"others"},items:s}),a};export{Q as a,J as g,c as i,z as t};
