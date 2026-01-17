@@ -7,9 +7,9 @@ export const items: Array<Project> = [
 		slug: 'movie-app-angular',
 		color: '#DE012D',
 		description:
-			'A movie app Like letterboxd website made with  Typescript and Angular and TMDB API with authentication/rating/favorite/whatchlist ',
+			'A movie app Like letterboxd website with  Typescript and Angular and TMDB API with authentication/rating/favorite/whatchlist ',
 		shortDescription:
-			'A movie app Like letterboxd website made with  Typescript and Angular and TMDB API',
+			'A movie app Like letterboxd website with  Typescript and Angular and TMDB API',
 		links: [{ to: 'https://github.com/mohamedelazzouzi1997/angular-movie-app-standalone-component', label: 'GitHub' }, { to: 'https://mohamed-elazzouzi-angular-movie-app.vercel.app/movies/list?page=1', label: 'Website' }],
 		logo: Assets.Angular,
 		name: 'Movie App',

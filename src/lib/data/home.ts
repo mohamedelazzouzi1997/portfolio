@@ -8,8 +8,7 @@ export const name = 'Mohamed';
 export const lastName = 'El Azzouzi';
 
 export const description =
-	'I am a skilled Full Stack Web Developer with a passion for creating robust and user-friendly applications. Proficient in both front-end and back-end technologies, I bring a comprehensive understanding of the development process from concept to deployment. My expertise includes designing responsive and intuitive user interfaces, implementing scalable backend solutions, and optimizing overall performance. With a commitment to staying updated on industry trends, I am dedicated to delivering high-quality software solutions that meet client needs and enhance the user experience.';
-
+	'Hi! I’m Mohamed, a passionate developer who loves building and maintaining web and mobile applications. I enjoy deploying projects with Docker, working with APIs, and automating tasks in Linux. I’m always curious and constantly learning new technologies to improve my skills and deliver better solutions.'
 export const links: Array<{ platform: Platform; link: string }> = [
 	{
 		platform: Platform.GitHub,

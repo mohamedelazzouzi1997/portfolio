@@ -1,3 +1,3 @@
-export const data = 'https://drive.google.com/file/d/1o6pgmo9jMt0yyZaHGVl4EravptNzQKy9/view';
+export const data = '/cv/Mohamed-Elazzouzi-cv.pdf';
 
-export const title = 'Resumé';
+export const title = 'Resume';
