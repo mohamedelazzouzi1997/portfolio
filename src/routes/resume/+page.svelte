@@ -1,6 +1,6 @@
 <script>
 	import { data, title } from '@data/resume';
-
+ import { base } from '$app/paths';
 	import Chip from '$lib/components/Chip/Chip.svelte';
 	import CommonPage from '$lib/components/CommonPage.svelte';
 </script>
@@ -8,7 +8,7 @@
 <CommonPage {title}>
 	<div class="resume">
 		{#if data}
-			<a href={data} download>
+			<a href={base}{data} download>
 				<Chip size={'1.25em'}>Download</Chip>
 			</a>
 		{:else}
