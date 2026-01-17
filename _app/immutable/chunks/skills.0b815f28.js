@@ -1,4 +1,4 @@
-import{A as e}from"./UIcon.9ab05426.js";const p=`# GO
+import{A as e}from"./UIcon.1b342983.js";const p=`# GO
 
 [\`GO\`](https://go.dev/) is an open-source programming language designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson. Known for its simplicity, efficiency, and strong support for concurrency, Go has gained popularity in the development community. It emphasizes clean and readable code, making it an excellent choice for building scalable and maintainable applications.
 <br/>
